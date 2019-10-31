@@ -1,0 +1,58 @@
+{
+    "name": "dauth",
+    "version": "0.0.0",
+    "description": "A Plug-n-Play UI interface for adding decentralized authentication to your dapp.",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "mocha",
+        "test:coverage": "codecov"
+    },
+    "keywords": [
+        "dapp",
+        "simpleaswater",
+        "web3.0",
+        "portis",
+        "metamask",
+        "dapper",
+        "uport",
+        "trezor",
+        "ledger",
+        "fortmatic",
+        "bitski",
+        "squarelink",
+        "keybase",
+        "torus",
+        "3box",
+        "blockchain",
+        "ethereum",
+        "mainnet",
+        "rospsten",
+        "kovan",
+        "rinkeby",
+        "goerli"
+    ],
+    "author": "Vaibhav Saini (hi@simpleaswater.com)",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "^7.6.4",
+        "@babel/preset-env": "^7.6.3",
+        "babelify": "^10.0.0",
+        "browserify": "^16.5.0",
+        "chai": "^4.2.0",
+        "gulp": "^4.0.2",
+        "gulp-babel": "^8.0.0",
+        "gulp-rename": "^1.4.0",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-uglify": "^3.0.2",
+        "mocha": "^6.2.2",
+        "vinyl-buffer": "^1.0.1",
+        "vinyl-source-stream": "^2.0.0"
+    },
+    "dependencies": {},
+    "babel": {
+        "presets": [
+            "@babel/preset-env"
+        ]
+    },
+    "homepage": "https://github.com/dappkit/dauth"
+}
